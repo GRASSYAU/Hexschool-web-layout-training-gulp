@@ -377,26 +377,26 @@ img {
   color: #650300;
   font-weight: bold;
   text-align: right; }
-  .slogan h5 {
+  .slogan h3 {
     font-size: 36px;
     line-height: 50px; }
     @media only screen and (max-width: 1110px) {
-      .slogan h5 {
+      .slogan h3 {
         font-size: 20px;
         line-height: 28px; } }
     @media only screen and (max-width: 767px) {
-      .slogan h5 {
+      .slogan h3 {
         font-size: 16px;
         line-height: 22px; } }
-  .slogan h3 {
+  .slogan h2 {
     font-size: 64px;
     line-height: 90px; }
     @media only screen and (max-width: 1110px) {
-      .slogan h3 {
+      .slogan h2 {
         font-size: 48px;
         line-height: 67px; } }
     @media only screen and (max-width: 767px) {
-      .slogan h3 {
+      .slogan h2 {
         font-size: 32px;
         line-height: 45px; } }
 
@@ -471,14 +471,14 @@ img {
         margin-bottom: 40px; } }
     .about-list li img {
       margin: 0 auto; }
-    .about-list li h6 {
+    .about-list li h3 {
       font-size: 24px;
       color: #650300;
       font-weight: bold;
       line-height: 33px;
       margin-top: 40px; }
       @media only screen and (max-width: 767px) {
-        .about-list li h6 {
+        .about-list li h3 {
           margin-top: 16px; } }
     .about-list li p {
       -moz-text-align-last: left;
@@ -652,17 +652,17 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .co-branding-list li h2 {
+    .co-branding-list li h4 {
       font-size: 72px;
       font-weight: 900;
       color: #AA0601;
       line-height: 95px; }
       @media only screen and (max-width: 1110px) {
-        .co-branding-list li h2 {
+        .co-branding-list li h4 {
           font-size: 32px;
           line-height: 43px; } }
       @media only screen and (max-width: 767px) {
-        .co-branding-list li h2 {
+        .co-branding-list li h4 {
           font-size: 32px;
           line-height: 25px; } }
     @media only screen and (max-width: 1110px) {
@@ -963,7 +963,7 @@ img {
     .location-list li > img {
       width: 100%;
       height: 224px; }
-    .location-list li h6 {
+    .location-list li h3 {
       font-size: 24px;
       line-height: 36px;
       padding: 12px 0px 12px 24px;
@@ -1114,28 +1114,28 @@ img {
     .glasses-product {
       padding-top: 30px;
       padding-bottom: 56px; } }
-  .glasses-product h4 {
+  .glasses-product h2 {
     font-size: 42px;
     line-height: 63px;
     font-weight: 500; }
     @media only screen and (max-width: 1110px) {
-      .glasses-product h4 {
+      .glasses-product h2 {
         font-size: 32px;
         line-height: 43px; } }
     @media only screen and (max-width: 767px) {
-      .glasses-product h4 {
+      .glasses-product h2 {
         font-size: 20px;
         line-height: 26px; } }
-  .glasses-product h5 {
+  .glasses-product h3 {
     font-size: 32px;
     line-height: 48px;
     font-weight: 500; }
     @media only screen and (max-width: 1110px) {
-      .glasses-product h5 {
+      .glasses-product h3 {
         font-size: 24px;
         line-height: 33px; } }
     @media only screen and (max-width: 767px) {
-      .glasses-product h5 {
+      .glasses-product h3 {
         font-size: 16px;
         line-height: 22px; } }
 
