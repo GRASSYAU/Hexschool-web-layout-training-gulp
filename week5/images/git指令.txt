@@ -1,0 +1,34 @@
+cd 資料夾位置
+
+git config --global user.name "KevinChang"
+git config --global user.email "apog780212@gmail.com"
+
+git init
+git add.
+git commit -m "<使用glup開發>"
+git status
+
+git log
+若要退出，請鍵入小寫 q
+
+git remote add origin https://github.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training.git
+git branch -M main
+git push -u origin main
+
+------------------------------------------------------------------------------------------------------
+
+glup
+ git checkout -b gh-pages
+// 建立 gh-pages 分支，並切換到 gh-pages
+git add -f week4\dist
+// 強制將 dist 加入暫存區
+git commit -m "<commit dist>"
+// commit 暫存區的檔案
+git push -u origin gh-pages
+// 將 dist 資料夾下的檔案 push 到 gh-pages
+
+git remote add origin https://github.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training-gulp.git
+git branch -M main
+git push -u origin main
+
+
