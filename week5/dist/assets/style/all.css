@@ -65,8 +65,7 @@ img {
   background-color: #EDF4EE; }
 
 .sidebar {
-  position: relative;
-  height: 100vh;
+  height: 100%;
   margin-left: 32px; }
 
 .logo {
@@ -93,49 +92,64 @@ img {
     .menu li a:hover {
       color: #2A8356; }
 
-.user {
-  position: absolute;
-  bottom: 32px; }
-  .user img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%; }
-  .user .user-info {
-    margin-left: 16px; }
-    .user .user-info h2 {
-      font-weight: bold;
-      line-height: 19px; }
-    .user .user-info p {
-      font-size: 0.875rem;
-      color: #0000009A;
-      line-height: 17px; }
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; }
+
+.user .user-info {
+  margin-left: 16px; }
+  .user .user-info h2 {
+    font-weight: bold;
+    line-height: 19px; }
+  .user .user-info p {
+    font-size: 0.875rem;
+    color: #0000009A;
+    line-height: 17px; }
 
 .navbar {
   padding-top: 32px;
   padding-bottom: 44px; }
-  .navbar li h2 {
+  .navbar h2 {
     font-size: 1.5rem;
     line-height: 29px;
     font-weight: bold;
     margin-right: 46px; }
-  .navbar li h3 {
+  .navbar .form-group {
+    margin: 0; }
+  .navbar .form-control {
     font-size: 1rem;
     line-height: 24px;
-    font-weight: bold; }
-  .navbar li a {
+    font-weight: bold;
+    border: 0;
+    background: transparent;
+    color: #121212;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; }
+  .navbar a {
     color: #121212; }
-    .navbar li a:first-child {
+    .navbar a:first-child {
       margin-right: 26px; }
 
 .angle-down {
   vertical-align: middle;
   color: #2A8356; }
 
-.directoryBox-title h2 {
+.directoryBox .form-group {
+  margin: 0; }
+
+.directoryBox .form-control {
+  width: 20%;
   font-size: 1rem;
-  line-height: 19px;
+  line-height: 24px;
   font-weight: bold;
-  margin-bottom: 6px; }
+  border: 0;
+  background: transparent;
+  color: #121212;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none; }
 
 .list-grou li {
   font-size: 0.75rem;
@@ -154,14 +168,16 @@ img {
     color: #0000009A;
     margin-top: 8px; }
 
-.messageBox h2 {
-  font-size: 1rem;
-  line-height: 19px;
-  font-weight: bold;
-  margin-bottom: 6px;
-  -moz-text-align-last: right;
-       text-align-last: right;
-  margin-right: 26px; }
+.messageBox {
+  margin-top: 13px; }
+  .messageBox h2 {
+    font-size: 1rem;
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    -moz-text-align-last: right;
+         text-align-last: right;
+    margin-right: 26px; }
 
 .messageBox-info {
   border: 1px solid #CDDDCD;
